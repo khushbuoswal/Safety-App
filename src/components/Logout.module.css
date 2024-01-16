@@ -1,0 +1,56 @@
+.vectorIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.closebuttonLogout,
+.vectorIcon,
+.yes {
+  position: absolute;
+  cursor: pointer;
+}
+.closebuttonLogout {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 9.27%;
+  width: 6.37%;
+  top: 12.67%;
+  right: 10%;
+  bottom: 78.07%;
+  left: 83.63%;
+}
+.yes {
+  top: 85px;
+  left: 71px;
+}
+.areYouSure {
+  position: absolute;
+  top: 33px;
+  left: 37px;
+  display: inline-block;
+  width: 141px;
+  height: 29px;
+}
+.logout {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 215px;
+  height: 150px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}

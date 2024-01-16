@@ -1,0 +1,572 @@
+.topbarMapp2l1Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-slateblue);
+}
+.logoMapp2l1Icon,
+.notificationMapp2l1Icon,
+.profileMapp2l1Icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoMapp2l1Icon {
+  height: 94.38%;
+  width: 16.03%;
+  top: 0;
+  right: 83.97%;
+  bottom: 5.62%;
+  left: 0;
+  object-fit: cover;
+}
+.notificationMapp2l1Icon,
+.profileMapp2l1Icon {
+  height: 57.3%;
+  width: 3.6%;
+  top: 25.84%;
+  right: 11.73%;
+  bottom: 16.85%;
+  left: 84.68%;
+  cursor: pointer;
+}
+.profileMapp2l1Icon {
+  width: 3.99%;
+  right: 4.14%;
+  left: 91.87%;
+}
+.topbarMapp2l1 {
+  position: absolute;
+  height: 10.7%;
+  width: 99.92%;
+  top: 0;
+  right: 0;
+  bottom: 89.3%;
+  left: 0.08%;
+}
+.mapimageMapp2l1Icon {
+  position: absolute;
+  height: 64.3%;
+  width: 84.38%;
+  top: 18.75%;
+  right: -1.12%;
+  bottom: 16.95%;
+  left: 16.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.headerbarMapp2l1Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 0.5px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.streetSafetyLevel {
+  position: absolute;
+  height: 56.72%;
+  width: 29.62%;
+  top: 26.87%;
+  left: 33.62%;
+  display: inline-block;
+}
+.headerbarMapp2l1 {
+  position: absolute;
+  height: 8.05%;
+  width: 84.45%;
+  top: 10.7%;
+  right: 0;
+  bottom: 81.25%;
+  left: 15.55%;
+}
+.leveloptionsMapp2l1Child {
+  position: absolute;
+  height: 100%;
+  width: 34.01%;
+  top: 0;
+  right: 65.99%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-41xl) 0 0 var(--br-41xl);
+  background-color: var(--color-palegoldenrod-200);
+  border: 4px solid var(--color-slateblue);
+  box-sizing: border-box;
+}
+.level1 {
+  position: absolute;
+  height: 30.16%;
+  width: 19.29%;
+  top: 23.81%;
+  left: 7.36%;
+  display: inline-block;
+}
+.leveloptionsMapp2l1Inner,
+.leveloptionsMapp2l1Item {
+  position: absolute;
+  height: 100%;
+  width: 34.01%;
+  top: 0;
+  bottom: 0;
+  background-color: var(--color-white);
+  border: 4px solid var(--color-slateblue);
+  box-sizing: border-box;
+}
+.leveloptionsMapp2l1Item {
+  right: 0;
+  left: 65.99%;
+  border-radius: 0 var(--br-41xl) var(--br-41xl) 0;
+}
+.leveloptionsMapp2l1Inner {
+  right: 32.99%;
+  left: 32.99%;
+}
+.level2,
+.level3 {
+  position: absolute;
+  height: 30.16%;
+  width: 19.29%;
+  top: 23.81%;
+  left: 72.34%;
+  display: inline-block;
+  cursor: pointer;
+}
+.level2 {
+  left: 40.36%;
+}
+.leveloptionsMapp2l1 {
+  position: absolute;
+  height: 7.57%;
+  width: 30.78%;
+  top: 88.22%;
+  right: 29.38%;
+  bottom: 4.21%;
+  left: 39.84%;
+  font-size: var(--font-size-xl);
+  color: var(--color-slateblue);
+}
+.sidebarMapp2L1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logOut {
+  position: absolute;
+  height: 37.23%;
+  width: 44.24%;
+  top: 62.77%;
+  left: 44.75%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.groupIcon {
+  position: absolute;
+  height: 42.55%;
+  width: 15.09%;
+  top: 54.26%;
+  right: 65.8%;
+  bottom: 3.19%;
+  left: 19.11%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoutMapp2L1Child {
+  position: absolute;
+  height: 1.06%;
+  width: 100.51%;
+  top: -0.53%;
+  right: -0.25%;
+  bottom: 99.47%;
+  left: -0.25%;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logoutMapp2L1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 12.65%;
+  width: 97.03%;
+  top: 81.02%;
+  right: 2.47%;
+  bottom: 6.33%;
+  left: 0.49%;
+}
+.report {
+  margin: 0;
+}
+.reportIncidents {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.reportIncidentsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 63.18%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 36.82%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  position: absolute;
+  height: 65.15%;
+  width: 32.22%;
+  top: 16.67%;
+  right: 67.78%;
+  bottom: 18.18%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.reportincidentsMapp2L1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 8.88%;
+  width: 74.13%;
+  top: 62.05%;
+  right: 9.1%;
+  bottom: 29.07%;
+  left: 16.77%;
+}
+.futureApplications {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 96px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.futureApplicationsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 68.73%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 31.27%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 65%;
+  width: 27.38%;
+  top: 15%;
+  right: 72.62%;
+  bottom: 20%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.futureapplicationsMapp2L1,
+.warningsWrapper {
+  position: absolute;
+  height: 8.08%;
+  width: 80.02%;
+  top: 47.78%;
+  right: 2.97%;
+  bottom: 44.15%;
+  left: 17.01%;
+}
+.warningsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  height: 81.13%;
+  width: 62.09%;
+  top: 18.87%;
+  right: 0.06%;
+  bottom: 0;
+  left: 37.85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 86.79%;
+  width: 33.5%;
+  top: 0;
+  right: 66.5%;
+  bottom: 13.21%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.warningsMapp2L1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.13%;
+  width: 78.54%;
+  top: 33.24%;
+  right: 4.7%;
+  bottom: 59.62%;
+  left: 16.77%;
+}
+.allelementssidebarMapp2L1Child {
+  position: absolute;
+  height: 13.32%;
+  width: 100%;
+  top: 16.96%;
+  right: 0;
+  bottom: 69.72%;
+  left: 0;
+  background-color: var(--color-slateblue);
+}
+.maps {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-white);
+  text-align: left;
+}
+.mapsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 76.79%;
+  width: 55.33%;
+  top: 23.21%;
+  right: 0;
+  bottom: 0;
+  left: 44.67%;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  position: absolute;
+  height: 71.07%;
+  width: 20.58%;
+  top: 0;
+  right: 70.88%;
+  bottom: 28.93%;
+  left: 8.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vectorIcon4,
+.vectorIcon5 {
+  height: 12.14%;
+  width: 5.77%;
+  top: 16.25%;
+  right: 78.32%;
+  bottom: 71.61%;
+  left: 15.91%;
+}
+.vectorIcon5 {
+  height: 55.36%;
+  width: 36.86%;
+  top: 35.71%;
+  right: 63.14%;
+  bottom: 8.93%;
+  left: 0;
+}
+.mapsMapp2L1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.54%;
+  width: 67.75%;
+  top: 19.52%;
+  right: 15.23%;
+  bottom: 72.95%;
+  left: 17.01%;
+}
+.home {
+  position: absolute;
+  height: 72.92%;
+  width: 58.69%;
+  top: 27.08%;
+  left: 41.31%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  cursor: default;
+}
+.vectorIcon6 {
+  position: absolute;
+  height: 95.83%;
+  width: 30.7%;
+  top: 0;
+  right: 69.3%;
+  bottom: 4.17%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.homeMapp2L1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.46%;
+  width: 73.15%;
+  top: 4.58%;
+  right: 10.09%;
+  bottom: 88.96%;
+  left: 16.77%;
+}
+.allelementssidebarMapp2L1,
+.statisticsWrapper {
+  position: absolute;
+  height: 89.3%;
+  width: 15.8%;
+  top: 10.7%;
+  right: 84.13%;
+  bottom: 0;
+  left: 0.08%;
+}
+.statisticsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  height: 100%;
+  width: 63.22%;
+  top: 0;
+  right: 0;
+  left: 36.78%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.groupIcon2 {
+  position: absolute;
+  height: 62.12%;
+  width: 27.37%;
+  top: 18.18%;
+  right: 72.63%;
+  bottom: 19.7%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.statisticsMapp2L1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 8.88%;
+  width: 74.09%;
+  top: 46.57%;
+  right: 9.1%;
+  bottom: 44.55%;
+  left: 16.82%;
+}
+.allelementssidebarMapp2L11,
+.vectorIcon12 {
+  position: absolute;
+  height: 89.3%;
+  width: 15.8%;
+  top: 10.7%;
+  right: 84.2%;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon12 {
+  height: 6.13%;
+  width: 3.98%;
+  top: 2.76%;
+  right: 18.52%;
+  bottom: 91.11%;
+  left: 77.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.mapPage2Level1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}

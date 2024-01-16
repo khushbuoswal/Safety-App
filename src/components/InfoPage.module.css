@@ -1,0 +1,140 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.groupChild,
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mistyrose);
+  width: 89.1px;
+  height: 41.8px;
+}
+.groupInner,
+.groupItem {
+  top: 68.6px;
+  background-color: var(--color-palegoldenrod-100);
+}
+.groupInner {
+  top: 142.2px;
+  background-color: var(--color-palegoldenrod-200);
+}
+.level3 {
+  font-size: var(--font-size-7xl);
+}
+.blankLine,
+.level3 {
+  margin: 0;
+}
+.level3HighContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  white-space: pre-wrap;
+  width: 547px;
+  height: 41.8px;
+}
+.factors,
+.levels,
+.rectangleParent {
+  position: absolute;
+  top: 100px;
+  left: 29px;
+  width: 547px;
+  height: 184px;
+}
+.factors,
+.levels {
+  top: 34px;
+  left: -22px;
+  display: inline-block;
+  color: var(--color-slateblue);
+  text-align: center;
+  width: 195px;
+  height: 38px;
+}
+.factors {
+  top: 311px;
+  left: -7px;
+  width: 164px;
+}
+.pedestrians {
+  font-family: var(--font-inika);
+}
+.pedestriansNumberOfContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 607px;
+  height: 261px;
+}
+.mapIcosDescription {
+  position: absolute;
+  top: 349px;
+  left: 32px;
+  width: 100%;
+  height: 225px;
+  opacity: 0;
+  max-height: 90%;
+  overflow: auto;
+  font-size: var(--font-size-3xl);
+}
+.mapIcosDescription.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}
+.level1Low,
+.level2Medium {
+  position: absolute;
+  top: 170px;
+  left: 32px;
+  font-size: var(--font-size-7xl);
+  display: inline-block;
+  white-space: pre-wrap;
+  width: 592px;
+  height: 51px;
+}
+.level1Low {
+  top: 244px;
+  width: 362px;
+  height: 52px;
+}
+.closebuttonLevelsIcon,
+.infoPage {
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+.closebuttonLevelsIcon {
+  position: absolute;
+  height: 2.73%;
+  width: 2.82%;
+  top: 5.01%;
+  right: 5.1%;
+  bottom: 92.26%;
+  left: 92.09%;
+  cursor: pointer;
+}
+.infoPage {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 657px;
+  height: 678px;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}

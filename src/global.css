@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Linden+Hill:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paprika:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inika: Inika;
+  --font-linden-hill: "Linden Hill";
+  --font-paprika: Paprika;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-5xl: 24px;
+  --font-size-7xl: 26px;
+  --font-size-3xl: 22px;
+  --font-size-9xl: 28px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-slateblue: #3a3eac;
+  --color-palegoldenrod-100: #feffbb;
+  --color-palegoldenrod-200: #e0ffaf;
+  --color-mistyrose: #ffd3d3;
+  --color-lightgray: #d1d1d1;
+  --color-olivedrab-100: #578d00;
+  --color-goldenrod: #cea000;
+  --color-firebrick: #a71616;
+  --color-gainsboro-100: #e8e8e8;
+  --color-gainsboro-200: #dadada;
+  --color-gainsboro-300: #d9d9d9;
+  --color-darkslateblue: #2c2f81;
+  --color-deepskyblue: #26a7ed;
+  --color-darkgray: #979797;
+  --color-gray-100: rgba(0, 0, 0, 0.06);
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --color-silver: #b9b9b9;
+  --color-mistyrose-100: rgba(255, 211, 211, 0);  
+
+  --color-silver: #b9b9b9;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-21xl: 40px;
+  --br-41xl: 60px;
+}

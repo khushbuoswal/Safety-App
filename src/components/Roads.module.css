@@ -1,0 +1,83 @@
+.roads1 {
+  position: absolute;
+  top: 34px;
+  left: -22px;
+  display: inline-block;
+  width: 195px;
+  height: 38px;
+}
+.level1Levels,
+.level1Levels1 {
+  position: absolute;
+  top: 108px;
+  left: 42px;
+}
+.level1Levels1 {
+  left: 280px;
+}
+.level1Levels2,
+.level1Levels3 {
+  position: absolute;
+  top: 186px;
+  left: 280px;
+}
+.level1Levels3 {
+  top: 264px;
+}
+.level1Levels4,
+.level1Levels5 {
+  position: absolute;
+  top: 108px;
+  left: 515px;
+}
+.level1Levels5 {
+  top: 186px;
+}
+.level1Levels6,
+.level1Levels7 {
+  position: absolute;
+  top: 264px;
+  left: 515px;
+}
+.level1Levels7 {
+  top: 342px;
+  left: 41px;
+}
+.level2Levels,
+.level3Levels {
+  position: absolute;
+  top: 186px;
+  left: 41px;
+}
+.level3Levels {
+  top: 264px;
+}
+.closebuttonLevelsIcon,
+.roads {
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+.closebuttonLevelsIcon {
+  position: absolute;
+  height: 4.22%;
+  width: 2.47%;
+  top: 9.16%;
+  right: 4.69%;
+  bottom: 86.62%;
+  left: 92.84%;
+  cursor: pointer;
+}
+.roads {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 768px;
+  height: 450px;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-slateblue);
+  font-family: var(--font-inika);
+}

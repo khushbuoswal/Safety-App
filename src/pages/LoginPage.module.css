@@ -1,0 +1,162 @@
+.backgroundIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.safeCampusesAfter {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 935px;
+  height: 112px;
+  flex-shrink: 0;
+}
+.title {
+  position: absolute;
+  height: 12.45%;
+  top: 23.31%;
+  bottom: 64.24%;
+  left: calc(50% - 481px);
+  width: 935px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.inputEmailLogin {
+  position: absolute;
+  height: 8.61%;
+  width: 29.38%;
+  top: 45.68%;
+  right: 35.32%;
+  bottom: 45.71%;
+  left: 35.3%;
+}
+.inputEmailLogin,
+.logIn,
+.passwordLogin {
+  border: 0;
+  background-color: transparent;
+}
+.passwordLogin {
+  position: absolute;
+  height: 9.57%;
+  width: 29.38%;
+  top: 56.5%;
+  right: 35.32%;
+  bottom: 33.93%;
+  left: 35.3%;
+}
+.logIn {
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inika);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 263px;
+  height: 37px;
+  flex-shrink: 0;
+}
+.logIn:active {
+  -webkit-text-stroke: 1px transparent;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.forgotPassword,
+.loginButton {
+  cursor: pointer;
+  position: absolute;
+}
+.loginButton {
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  padding: var(--padding-3xs);
+  top: calc(50% + 196.2px);
+  left: calc(50% - 141.5px);
+  box-sizing: border-box;
+  width: 283px;
+  height: 61.3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginButton,
+.loginButton:active {
+  background-color: var(--color-slateblue);
+}
+.forgotPassword {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 2.67%;
+  width: 10.7%;
+  top: 65.57%;
+  left: 54.53%;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-inika);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.checkboxLogin {
+  margin: 0;
+  position: absolute;
+  height: 1.6%;
+  width: 1.11%;
+  top: 66.05%;
+  right: 63.58%;
+  bottom: 32.35%;
+  left: 35.31%;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+}
+.rememberMe {
+  position: absolute;
+  height: 2.28%;
+  width: 8.47%;
+  top: 65.7%;
+  left: 36.56%;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-inika);
+  display: inline-block;
+}
+.logoIcon {
+  position: absolute;
+  height: 8.96%;
+  width: 17.34%;
+  top: 0;
+  right: 82.66%;
+  bottom: 91.04%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.loginpage {
+  position: relative;
+  width: 100%;
+  height: 858px;
+  text-align: center;
+  font-size: 80px;
+  color: var(--color-black);
+  font-family: var(--font-linden-hill);
+}

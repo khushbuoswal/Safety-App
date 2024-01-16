@@ -1,0 +1,856 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.hearder {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-slateblue);
+}
+.logoIcon {
+  height: 94.38%;
+  width: 15.63%;
+  top: 0;
+  right: 84.38%;
+  bottom: 5.62%;
+  left: 0;
+  object-fit: cover;
+}
+.logoIcon,
+.notificationpopupReportincideIcon,
+.vectorIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notificationpopupReportincideIcon {
+  height: 58.43%;
+  width: 3.59%;
+  top: 25.84%;
+  right: 11.72%;
+  bottom: 15.73%;
+  left: 84.69%;
+  cursor: pointer;
+}
+.vectorIcon {
+  height: 36.27%;
+  width: 36.27%;
+  top: 18.24%;
+  right: 31.96%;
+  bottom: 45.49%;
+  left: 31.76%;
+  object-fit: cover;
+}
+.group,
+.vectorIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon1 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.profilepopReportincidents,
+.vectorIcon2 {
+  position: absolute;
+  height: 57.3%;
+  width: 3.98%;
+  top: 25.84%;
+  right: 4.14%;
+  bottom: 16.85%;
+  left: 91.88%;
+}
+.vectorIcon2 {
+  right: 18.52%;
+  left: 77.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.topBarReportincidents {
+  position: absolute;
+  height: 10.7%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 89.3%;
+  left: 0;
+}
+.headerReportincidentsChild {
+  position: absolute;
+  height: 100%;
+  width: 56.51%;
+  top: 0;
+  right: 11.52%;
+  bottom: 0;
+  left: 31.97%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-slateblue);
+  box-sizing: border-box;
+}
+.street,
+.thomasSt {
+  position: absolute;
+  height: 55.1%;
+  width: 28.62%;
+  top: 22.45%;
+  left: 0;
+  display: inline-block;
+}
+.thomasSt {
+  height: 77.55%;
+  width: 63.2%;
+  left: 28.62%;
+  text-align: center;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 36.73%;
+  width: 8.18%;
+  top: 32.65%;
+  right: 0;
+  bottom: 30.61%;
+  left: 91.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.headerReportincidents {
+  position: absolute;
+  height: 5.89%;
+  width: 21.02%;
+  top: 15.02%;
+  right: 58.44%;
+  bottom: 79.09%;
+  left: 20.55%;
+  font-size: var(--font-size-3xl);
+}
+.reportBoxReportincidence {
+  position: absolute;
+  height: 66.11%;
+  width: 52.11%;
+  top: 22.84%;
+  right: 29.22%;
+  bottom: 11.06%;
+  left: 18.67%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.staristicsreportReportincidenChild {
+  position: absolute;
+  height: 2.42%;
+  width: 100.16%;
+  top: 98.79%;
+  right: -0.08%;
+  bottom: -1.21%;
+  left: -0.08%;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.statisticsReport {
+  position: absolute;
+  height: 82.37%;
+  width: 47.34%;
+  top: 0;
+  left: 2.58%;
+  display: inline-block;
+}
+.staristicsreportReportinciden {
+  position: absolute;
+  height: 4.98%;
+  width: 48.54%;
+  top: 25.41%;
+  right: 32.34%;
+  bottom: 69.62%;
+  left: 19.12%;
+  font-size: var(--font-size-lg);
+}
+
+.warningsReportincidents {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 689px;
+  height: 484px;
+}
+.scrollReportincidents {
+  position: absolute;
+  height: 52%;
+  width: 100%;
+  top: 33.38%;
+  right: 32.25%;
+  bottom: 15.5%;
+  left: 21.47%;
+  opacity: 0;
+  max-height: 90%;
+  overflow: auto;
+}
+.scrollReportincidents.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}
+.sidebarReportIncidents {
+  position: absolute;
+  height: 100%;
+  width: 99.51%;
+  top: 0;
+  right: 0.49%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logOut {
+  position: absolute;
+  height: 37.23%;
+  width: 44.19%;
+  top: 62.77%;
+  left: 44.7%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.groupIcon {
+  position: absolute;
+  height: 42.55%;
+  width: 15.05%;
+  top: 54.26%;
+  right: 65.85%;
+  bottom: 3.19%;
+  left: 19.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoutReportIncidentsChild {
+  position: absolute;
+  height: 1.06%;
+  width: 100.51%;
+  top: -0.53%;
+  right: -0.26%;
+  bottom: 99.47%;
+  left: -0.26%;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logoutReportIncidents {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 12.65%;
+  width: 96.59%;
+  top: 81.02%;
+  right: 2.92%;
+  bottom: 6.33%;
+  left: 0.49%;
+}
+.allelementssidebarReportInciChild {
+  position: absolute;
+  top: 319px;
+  left: 1px;
+  background-color: var(--color-slateblue);
+  width: 201.2px;
+  height: 99px;
+}
+.statistics1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-white);
+  text-align: left;
+}
+.statisticsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 63.61%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 36.39%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.imageStatisticsIcon {
+  position: absolute;
+  height: 62.12%;
+  width: 27.55%;
+  top: 15.15%;
+  right: 72.45%;
+  bottom: 22.73%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.statisticsReportIncidents {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 8.88%;
+  width: 73.24%;
+  top: 46.57%;
+  right: 10.04%;
+  bottom: 44.55%;
+  left: 16.72%;
+}
+.warnings {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.warningsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 81.13%;
+  width: 62.09%;
+  top: 18.87%;
+  right: 0;
+  bottom: 0;
+  left: 37.91%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.vectorIcon4 {
+  position: absolute;
+  height: 86.79%;
+  width: 33.54%;
+  top: 0;
+  right: 66.46%;
+  bottom: 13.21%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.warningsStatistics {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.13%;
+  width: 78.14%;
+  top: 33.24%;
+  right: 5.19%;
+  bottom: 59.62%;
+  left: 16.67%;
+}
+.maps {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.mapsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 76.79%;
+  width: 55.32%;
+  top: 23.21%;
+  right: 0;
+  bottom: 0;
+  left: 44.68%;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7 {
+  position: absolute;
+  height: 71.07%;
+  width: 20.54%;
+  top: 0;
+  right: 70.95%;
+  bottom: 28.93%;
+  left: 8.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vectorIcon6,
+.vectorIcon7 {
+  height: 12.14%;
+  width: 5.72%;
+  top: 16.25%;
+  right: 78.36%;
+  bottom: 71.61%;
+  left: 15.92%;
+}
+.vectorIcon7 {
+  height: 55.36%;
+  width: 36.9%;
+  top: 35.71%;
+  right: 63.1%;
+  bottom: 8.93%;
+  left: 0;
+}
+.mapsStatistics {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.54%;
+  width: 67.41%;
+  top: 19.52%;
+  right: 15.68%;
+  bottom: 72.95%;
+  left: 16.91%;
+}
+.home {
+  position: absolute;
+  height: 72.92%;
+  width: 58.63%;
+  top: 27.08%;
+  left: 41.3%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  cursor: default;
+}
+.homeImageStatisticsIcon {
+  position: absolute;
+  height: 95.83%;
+  width: 30.64%;
+  top: 0;
+  right: 69.36%;
+  bottom: 4.17%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.homeReportIncidents {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.46%;
+  width: 72.8%;
+  top: 4.58%;
+  right: 10.53%;
+  bottom: 88.96%;
+  left: 16.67%;
+}
+.allelementssidebarReportInci,
+.wrapper {
+  position: absolute;
+  height: 89.3%;
+  width: 15.8%;
+  top: 10.94%;
+  right: 84.2%;
+  bottom: -0.24%;
+  left: 0;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+/*Stats page*/
+.statistics {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}
+
+/*Levels Calender*/
+.calendarStatistics {
+  position: absolute;
+  height: 3.37%;
+  width: 9.77%;
+  top: 25%;
+  right: 57.42%;
+  bottom: 71.63%;
+  left: 32.81%;
+}
+/*Levels Calender: Making data into rows*/
+
+
+/*2 Calendar-Title*/
+.compareDates {
+  position: absolute;
+  height: 4.69%;
+  width: 15.31%;
+  top: 15.38%;
+  left: 75.23%;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+}
+
+/*Current Calender-OutsideBox*/
+.ratingsReportincidentsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+/*Current Calender-Title: Current*/
+.current {
+  position: relative;
+  height: 4.64%;
+  width: 35.52%;
+  top: 7.68%;
+  left: 61.11%;
+  color: var(--color-black);
+}
+/*Current Calender: Frequencies*/
+.current1 {
+  position: relative;
+  height: 4.64%;
+  width: 35.52%;
+  top: 49.55px;
+  left: 61%;
+  color: var(--color-slateblue);
+}
+/*Current Calender: Items*/
+.current,
+.pedestrians,
+.substances {
+  position: absolute;
+  display: inline-block;
+}
+/*Current Calender: People*/
+.pedestrians {
+  height: 4.64%;
+  width: 35.52%;
+  top: 30.13%;
+  left: 6.8%;
+  white-space: pre-wrap;
+}
+/*Current Calender: Subtances*/
+.substances {
+  height: 4.38%;
+  width: 33.33%;
+  top: 42.07%;
+  left: 7%;
+}
+/*Current Calender: Items*/
+.lighting,
+.maintenance,
+.violence,
+.weapons {
+  position: absolute;
+  height: 7.07%;
+  width: 30%;
+  top: 65.96%;
+  left: 7.1%;
+  display: inline-block;
+}
+/*Current Calender: Items*/
+.lighting,
+.maintenance,
+.violence {
+  width: 28.8%;
+  top: 77%;
+  left: 6.79%;
+}
+/*Current Calender: Items*/
+.maintenance,
+.violence {
+  height: 4.7%;
+  width: 23.77%;
+  top: 54.02%;
+  left: 7.1%;
+}
+/*Current Calender: Maintenance*/
+.maintenance {
+  height: 7.07%;
+  width: 36.05%;
+  top: 89.2%;
+  left: 7%;
+}
+/*Current Calender: Date*/
+.calendarStatistics1 {
+  position: absolute;
+  height: 6.88%;
+  width: 43.83%;
+  top: 6.4%;
+  right: 49.38%;
+  bottom: 86.72%;
+  left: 6.79%;
+}
+/*Current Calender: Box*/
+.ratingPast {
+  position: absolute;
+  height: 37.57%;
+  width: 25.31%;
+  top: 20.79%;
+  right: 1.09%;
+  bottom: 41.63%;
+  left: 73.59%;
+  color: var(--color-slateblue);
+}
+/*Current Calender: No data found*/
+.l{
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+/*Current Calender-Title: Factors */
+h2{
+  position: absolute;
+  width: 116.899px;
+  height: 14.155px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inika;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  left: 6.8%;  
+  top: 15.4%;
+  }
+/*Current Calender-Title: Frequencies */  
+h1{
+  position: relative;
+  width: 116.899px;
+  height: 14.155px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inika;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+/*History Calender-Title: History*/
+.currentT {
+  position: relative;
+  height: 4.64px;
+  width: 35.52px;
+  top: 6.68px;
+  left: 180px;
+  color: var(--color-black);
+}
+/*History Calender: Factors and Frequencies*/
+.current3 {
+  position: relative;
+  height: 4.64%;
+  width: 35.52%;
+  left: 180px;
+  color: var(--color-slateblue);
+}
+/*History Calender-Box*/
+.ratingsReportincidentsItem {
+  position: absolute;
+  height: 55.93%;
+  width: 100%;
+  top: 46.07%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+
+/*History Calendar: Calendar*/
+.calendarStatistics2 {
+  position: absolute;
+  height: 3.7%;
+  width: 43.83%;
+  top: 49.27%;
+  right: 49.39%;
+  bottom: 47.03%;
+  left: 6.78%;
+}
+/*History Calendar-Fatcors: People*/
+.pedestrians2{
+  position: relative;
+  top: -9px;
+}
+/*History Calendar-Fatcors: Substances*/
+.substances2{
+  position: relative;
+  top: 4px;
+ }
+ /*History Calendar-Fatcors: Violence*/
+ .violence2{
+  position: relative;
+  top: -26px;
+ }
+ /*History Calendar-Fatcors: Weapons*/
+.weapons2{
+  position: relative;
+  top: 59px;
+}
+/*History Calendar-Fatcors: Lighting*/
+.lighting2{
+  position: relative;
+  top: 70px;
+}
+/*History Calendar-Fatcors: Maintenace*/
+.maintenance2{
+  position: relative;
+  top: 63px;
+}
+/*History Calendar-Box*/
+.ratingPast1 {
+  position: absolute;
+  height: 67.91%;
+  width: 25.7%;
+  top: 28.13%;
+  right: 0.7%;
+  bottom: 3.97%;
+  left: 73.59%;
+  color: var(--color-slateblue);
+}
+/*History Calendar: No data found*/
+.e{
+  position: relative;
+  top: 80px;
+  left: 17px;
+  width: 300px;
+}
+/*History Calendar-Title: Factor*/
+h3{
+  position: relative;
+  width: 116.899px;
+  height: 14.155px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inika;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  top: -15px;
+}
+/*History Calendar-Title: Frequencies*/
+h4{
+  position: relative;
+  width: 116.899px;
+  height: 14.155px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inika;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-rows: auto; /* Adjust row height as needed */
+ 
+}
+
+.header1 {
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(7, 90px);
+  gap: 1px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(7, 90px);
+ 
+}
+
+.street,
+.ASt {
+  position: absolute;
+  height: 55.1%;
+  width: 28.62%;
+  top: 22.45%;
+  left: 0;
+  display: inline-block;
+}
+.ASt {
+  height: 77.55%;
+  width: 60.2%;
+  left: 28.62%;
+  text-align: center;
+  font-size: 19.5px;
+}

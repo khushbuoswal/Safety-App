@@ -1,0 +1,53 @@
+.levels1 {
+  position: absolute;
+  top: 34px;
+  left: -34px;
+  display: inline-block;
+  width: 195px;
+  height: 38px;
+}
+.level1Levels,
+.level2Levels {
+  position: absolute;
+  top: 108px;
+  left: 42px;
+}
+.level2Levels {
+  top: 186px;
+  left: 41px;
+  cursor: pointer;
+}
+.level3Levels {
+  position: absolute;
+  top: 264px;
+  left: 41px;
+}
+.closebuttonLevelsIcon,
+.levels {
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+.closebuttonLevelsIcon {
+  position: absolute;
+  height: 5.12%;
+  width: 6.55%;
+  top: 11.86%;
+  right: 10.69%;
+  bottom: 83.02%;
+  left: 82.76%;
+  cursor: pointer;
+}
+.levels {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 290px;
+  height: 371px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-slateblue);
+  font-family: var(--font-inika);
+}

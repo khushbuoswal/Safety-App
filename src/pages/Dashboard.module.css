@@ -1,0 +1,697 @@
+.mapsBigbuttonDashboardChild {
+  position: absolute;
+  height: 100%;
+  width: 93.48%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 6.52%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.maps {
+  position: absolute;
+  height: 13.29%;
+  width: 38.88%;
+  top: 2.8%;
+  left: 0;
+  display: inline-block;
+}
+.mapsBigbuttonDashboardItem {
+  position: absolute;
+  height: 58.04%;
+  width: 71.46%;
+  top: 16.43%;
+  right: 12.81%;
+  bottom: 25.52%;
+  left: 15.73%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.view,
+.viewmapsChild {
+  position: absolute;
+  height: 86.21%;
+}
+.viewmapsChild {
+  width: 100%;
+  top: 6.9%;
+  right: 0;
+  bottom: 6.9%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.view {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 46.81%;
+  top: 10.34%;
+  left: 3.55%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inika);
+  color: var(--color-darkslateblue);
+  text-align: center;
+  display: inline-block;
+}
+.view1:active,
+.view2:active,
+.view:active {
+  color: var(--color-deepskyblue);
+}
+.memoryarrowRightIcon {
+  position: absolute;
+  height: 100%;
+  width: 21.99%;
+  top: 0;
+  right: 23.4%;
+  bottom: 0;
+  left: 54.61%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.viewmaps {
+  position: absolute;
+  height: 10.14%;
+  width: 31.69%;
+  top: 81.12%;
+  right: 51.46%;
+  bottom: 8.74%;
+  left: 16.85%;
+  cursor: pointer;
+}
+.mapsBigbuttonDashboard {
+  position: absolute;
+  height: 34.38%;
+  width: 34.77%;
+  top: 15.63%;
+  right: 42.66%;
+  bottom: 50%;
+  left: 22.58%;
+}
+.warningsBigbuttonDashboardChild {
+  position: absolute;
+  height: 100%;
+  width: 94.33%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 5.67%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.warningsBigbuttonDashboardItem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.15%;
+  width: 30.84%;
+  top: 89.87%;
+  right: 53.74%;
+  bottom: 0.98%;
+  left: 15.42%;
+}
+.warnings {
+  position: absolute;
+  height: 12.42%;
+  width: 39.86%;
+  top: 5.88%;
+  left: 0;
+  display: inline-block;
+}
+.warningsBigbuttonDashboardInner {
+  position: absolute;
+  height: 52.94%;
+  width: 73.04%;
+  top: 20.59%;
+  right: 14.06%;
+  bottom: 26.47%;
+  left: 12.9%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-firebrick);
+  box-sizing: border-box;
+}
+.latest {
+  margin: 0;
+}
+.level3 {
+  color: #b84242;
+}
+.latest02122023SatContainer {
+  position: absolute;
+  height: 36.6%;
+  width: 62.36%;
+  top: 29.08%;
+  left: 17.23%;
+  font-size: var(--font-size-base);
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+}
+.warningsBigbuttonDashboard {
+  position: absolute;
+  height: 36.78%;
+  width: 34.45%;
+  top: 54.57%;
+  right: 42.66%;
+  bottom: 8.65%;
+  left: 22.89%;
+}
+.topBarDashboardChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-slateblue);
+}
+.logoDashboardIcon {
+  position: absolute;
+  height: 95.51%;
+  width: 15.94%;
+  top: 0;
+  right: 84.06%;
+  bottom: 4.49%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.notificationDashboardIcon,
+.profileDashboardIcon {
+  position: absolute;
+  height: 58.43%;
+  width: 3.59%;
+  top: 25.84%;
+  right: 11.72%;
+  bottom: 15.73%;
+  left: 84.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.profileDashboardIcon {
+  height: 57.3%;
+  width: 3.98%;
+  right: 4.14%;
+  bottom: 16.85%;
+  left: 91.88%;
+}
+.topBarDashboard {
+  position: absolute;
+  height: 10.7%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 89.3%;
+  left: 0;
+}
+.reportincidentsBigbuttonDashChild {
+  position: absolute;
+  height: 100%;
+  width: 95.88%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 4.12%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.statistics {
+  position: absolute;
+  height: 13.44%;
+  width: 50.07%;
+  top: 10.82%;
+  left: 0;
+  display: inline-block;
+}
+.viewstatisticsChild {
+  position: absolute;
+  height: 79.55%;
+  width: 96.58%;
+  top: 9.58%;
+  right: 0;
+  bottom: 10.86%;
+  left: 3.42%;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+}
+.view1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 44.73%;
+  width: 55.54%;
+  top: 13.1%;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inika);
+  color: var(--color-slateblue);
+  text-align: center;
+  display: inline-block;
+}
+.memoryarrowRightIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 19.77%;
+  top: 0;
+  right: 25.4%;
+  bottom: 0;
+  left: 54.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.viewstatistics {
+  position: absolute;
+  height: 10.26%;
+  width: 40.22%;
+  top: 79.67%;
+  right: 40.99%;
+  bottom: 10.07%;
+  left: 18.8%;
+  cursor: pointer;
+}
+.reportincidentsBigbuttonDash {
+  position: absolute;
+  height: 36.66%;
+  width: 32.42%;
+  top: 34.25%;
+  right: 4.14%;
+  bottom: 29.09%;
+  left: 63.44%;
+}
+.viewwarningsChild {
+  height: 93.1%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 6.9%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.memoryarrowRightIcon2,
+.view2,
+.viewwarningsChild {
+  position: absolute;
+  cursor: pointer;
+}
+.view2 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 86.21%;
+  width: 47.48%;
+  top: 10.34%;
+  left: 2.16%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inika);
+  color: var(--color-darkslateblue);
+  text-align: center;
+  display: inline-block;
+}
+.memoryarrowRightIcon2 {
+  height: 100%;
+  width: 22.3%;
+  top: 0;
+  right: 23.74%;
+  bottom: 0;
+  left: 53.96%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.viewwarnings {
+  position: absolute;
+  height: 3.49%;
+  width: 10.86%;
+  top: 84.13%;
+  right: 60.94%;
+  bottom: 12.38%;
+  left: 28.2%;
+}
+.sidebarDashboard {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logOut {
+  position: absolute;
+  height: 37.23%;
+  width: 44.22%;
+  top: 62.77%;
+  left: 44.73%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.groupIcon {
+  position: absolute;
+  height: 42.55%;
+  width: 15.08%;
+  top: 54.26%;
+  right: 65.82%;
+  bottom: 3.19%;
+  left: 19.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoutDashboardChild {
+  position: absolute;
+  height: 1.06%;
+  width: 100.51%;
+  top: -0.53%;
+  right: -0.25%;
+  bottom: 99.47%;
+  left: -0.25%;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logoutDashboard {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 12.65%;
+  width: 97.08%;
+  top: 81.02%;
+  right: 2.42%;
+  bottom: 6.33%;
+  left: 0.49%;
+}
+.statistics1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.statisticsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 63.86%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 36.14%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.groupIcon1 {
+  position: absolute;
+  height: 62.12%;
+  width: 27.98%;
+  top: 18.18%;
+  right: 72.02%;
+  bottom: 19.7%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.statisticsDashboard,
+.warningsWrapper {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.statisticsDashboard {
+  padding: 0;
+  height: 8.88%;
+  width: 73.34%;
+  top: 46.57%;
+  right: 9.64%;
+  bottom: 44.55%;
+  left: 17.01%;
+}
+.warningsWrapper {
+  padding: var(--padding-3xs);
+  height: 81.13%;
+  width: 62.09%;
+  top: 18.87%;
+  right: 0;
+  bottom: 0;
+  left: 37.91%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  position: absolute;
+  height: 86.79%;
+  width: 33.56%;
+  top: 0;
+  right: 66.44%;
+  bottom: 13.21%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.warningsDashboard {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.13%;
+  width: 78.54%;
+  top: 33.24%;
+  right: 4.7%;
+  bottom: 59.62%;
+  left: 16.77%;
+}
+.maps1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.mapsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 76.79%;
+  width: 55.28%;
+  top: 23.21%;
+  right: 0.07%;
+  bottom: 0;
+  left: 44.64%;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  height: 71.07%;
+  width: 20.56%;
+  top: 0;
+  right: 70.96%;
+  bottom: 28.93%;
+  left: 8.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  height: 12.14%;
+  width: 5.75%;
+  top: 16.25%;
+  right: 78.36%;
+  bottom: 71.61%;
+  left: 15.89%;
+}
+.vectorIcon3 {
+  height: 55.36%;
+  width: 36.88%;
+  top: 35.71%;
+  right: 63.12%;
+  bottom: 8.93%;
+  left: 0;
+}
+.mapsDasboard {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.54%;
+  width: 68.79%;
+  top: 19.52%;
+  right: 14.44%;
+  bottom: 72.95%;
+  left: 16.77%;
+}
+.home {
+  position: absolute;
+  height: 35.33%;
+  width: 42.93%;
+  top: 39.44%;
+  left: 48.02%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  cursor: default;
+}
+.vectorIcon4 {
+  position: absolute;
+  height: 46.45%;
+  width: 22.45%;
+  top: 26.26%;
+  right: 59.79%;
+  bottom: 27.29%;
+  left: 17.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.homeDashboard {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 14.4%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 85.6%;
+  left: 0;
+}
+.allelementssidebarDashboard {
+  position: absolute;
+  height: 89.3%;
+  width: 15.8%;
+  top: 10.7%;
+  right: 84.2%;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  position: absolute;
+  height: 8.77%;
+  width: 7.5%;
+  top: 47.48%;
+  right: 8.83%;
+  bottom: 43.75%;
+  left: 83.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  height: 5.29%;
+  width: 4.06%;
+  top: 49.64%;
+  right: 11.25%;
+  bottom: 45.07%;
+  left: 84.69%;
+}
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  height: 2.64%;
+  width: 2.03%;
+  top: 49.28%;
+  right: 10.7%;
+  bottom: 48.08%;
+  left: 87.27%;
+}
+.vectorIcon8,
+.vectorIcon9 {
+  height: 8.77%;
+  width: 7.5%;
+  top: 47.48%;
+  right: 22.89%;
+  bottom: 43.75%;
+  left: 69.61%;
+}
+.vectorIcon9 {
+  height: 6.13%;
+  width: 3.98%;
+  top: 2.76%;
+  right: 18.52%;
+  bottom: 91.11%;
+  left: 77.5%;
+  cursor: pointer;
+}
+.dashboard {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}

@@ -1,0 +1,691 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.header,
+.logoIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-slateblue);
+}
+.logoIcon {
+  height: 94.38%;
+  width: 17.11%;
+  right: 82.89%;
+  bottom: 5.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.notificationpopupWarningp3Icon,
+.profilePopupWarningp3Icon,
+.vectorIcon {
+  position: absolute;
+  height: 58.43%;
+  width: 3.59%;
+  top: 25.84%;
+  right: 11.72%;
+  bottom: 15.73%;
+  left: 84.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.profilePopupWarningp3Icon,
+.vectorIcon {
+  height: 57.3%;
+  width: 3.98%;
+  right: 4.14%;
+  bottom: 16.85%;
+  left: 91.88%;
+}
+.vectorIcon {
+  right: 18.52%;
+  left: 77.5%;
+  object-fit: cover;
+}
+.header1,
+.topbarWarningP3 {
+  position: absolute;
+  height: 10.7%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 89.3%;
+  left: 0;
+}
+.header1 {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-palegoldenrod-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 0.5px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.level1,
+.vectorIcon1 {
+  position: absolute;
+  cursor: pointer;
+}
+.vectorIcon1 {
+  height: 26.92%;
+  width: 2.04%;
+  top: 32.77%;
+  right: 42.96%;
+  bottom: 40.31%;
+  left: 55%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.level1 {
+  height: 52.31%;
+  width: 14.17%;
+  top: 8.92%;
+  left: 40.83%;
+  display: inline-block;
+}
+.level1HeaderWarningp3 {
+  position: absolute;
+  height: 7.81%;
+  width: 84.38%;
+  top: 10.7%;
+  right: 0;
+  bottom: 81.49%;
+  left: 15.63%;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-slateblue);
+}
+.totalWarningBox,
+.totalwarningp3Child {
+  position: absolute;
+  box-sizing: border-box;
+}
+.totalWarningBox {
+  height: 58.53%;
+  width: 50.86%;
+  top: 27.04%;
+  right: 29.61%;
+  bottom: 14.42%;
+  left: 19.53%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+}
+.totalwarningp3Child {
+  height: 2.42%;
+  width: 100.15%;
+  top: 98.79%;
+  right: -0.08%;
+  bottom: -1.21%;
+  left: -0.08%;
+  border-top: 1px solid var(--color-lightgray);
+}
+.b {
+  font-family: var(--font-inika);
+}
+.span {
+  font-size: var(--font-size-xl);
+}
+.level11 {
+  color: var(--color-olivedrab-100);
+}
+.totalOf132Container {
+  position: absolute;
+  height: 82.13%;
+  width: 40.49%;
+  top: 0;
+  left: 2.63%;
+  display: inline-block;
+  z-index: 1;
+}
+.totalwarningp3 {
+  position: absolute;
+  height: 4.98%;
+  width: 50.55%;
+  top: 29.45%;
+  right: 29.76%;
+  bottom: 65.58%;
+  left: 19.69%;
+  font-size: var(--font-size-lg);
+}
+
+
+.warningsPage3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}
+
+.warningsPage2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}
+
+.scrollWarningp3 {
+
+  width: 100%;
+  top: 35.82%;
+  right: 32.03%;
+  bottom: 15.75%;
+  left: 21.41%;
+  opacity: 0;
+  max-height: 90%;
+  overflow: auto;
+  font-size: var(--font-size-mini);
+}
+.scrollWarningp3.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}
+.sidebarWarningp3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logOut {
+  position: absolute;
+  height: 37.23%;
+  width: 44.24%;
+  top: 62.77%;
+  left: 44.75%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.groupIcon {
+  position: absolute;
+  height: 42.55%;
+  width: 15.09%;
+  top: 54.26%;
+  right: 65.8%;
+  bottom: 3.19%;
+  left: 19.11%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoutWarningp3Child {
+  position: absolute;
+  height: 1.06%;
+  width: 100.51%;
+  top: -0.53%;
+  right: -0.25%;
+  bottom: 99.47%;
+  left: -0.25%;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logoutWarningp3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 12.65%;
+  width: 97.03%;
+  top: 81.02%;
+  right: 2.47%;
+  bottom: 6.33%;
+  left: 0.49%;
+}
+.statistics {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.statisticsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 64.51%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 35.49%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.groupIcon1 {
+  position: absolute;
+  height: 62.12%;
+  width: 27.93%;
+  top: 24.24%;
+  right: 72.07%;
+  bottom: 13.64%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.statisticsWarningp3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 8.88%;
+  width: 72.6%;
+  top: 46.03%;
+  right: 10.58%;
+  bottom: 45.09%;
+  left: 16.82%;
+}
+.allelementssidebarWarningp3Child {
+  position: absolute;
+  top: 226px;
+  left: 0;
+  background-color: var(--color-slateblue);
+  width: 202.2px;
+  height: 99px;
+}
+.warnings {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-white);
+  text-align: left;
+}
+.warningsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 81.13%;
+  width: 62.09%;
+  top: 18.87%;
+  right: 0.06%;
+  bottom: 0;
+  left: 37.85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 86.79%;
+  width: 33.5%;
+  top: 0;
+  right: 66.5%;
+  bottom: 13.21%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.warningsWarningp31 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.13%;
+  width: 78.54%;
+  top: 33.24%;
+  right: 4.7%;
+  bottom: 59.62%;
+  left: 16.77%;
+}
+.maps {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.mapsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 76.79%;
+  width: 55.33%;
+  top: 23.21%;
+  right: 0;
+  bottom: 0;
+  left: 44.67%;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  position: absolute;
+  height: 71.07%;
+  width: 20.58%;
+  top: 0;
+  right: 70.88%;
+  bottom: 28.93%;
+  left: 8.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vectorIcon4,
+.vectorIcon5 {
+  height: 12.14%;
+  width: 5.77%;
+  top: 16.25%;
+  right: 78.32%;
+  bottom: 71.61%;
+  left: 15.91%;
+}
+.vectorIcon5 {
+  height: 55.36%;
+  width: 36.86%;
+  top: 35.71%;
+  right: 63.14%;
+  bottom: 8.93%;
+  left: 0;
+}
+.mapsWarningp3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.54%;
+  width: 67.75%;
+  top: 19.52%;
+  right: 15.23%;
+  bottom: 72.95%;
+  left: 17.01%;
+}
+.home {
+  position: absolute;
+  height: 72.92%;
+  width: 58.69%;
+  top: 27.08%;
+  left: 41.31%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  cursor: default;
+}
+.vectorIcon6 {
+  position: absolute;
+  height: 95.83%;
+  width: 30.7%;
+  top: 0;
+  right: 69.3%;
+  bottom: 4.17%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.homeWarningp3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.46%;
+  width: 73.15%;
+  top: 4.58%;
+  right: 10.09%;
+  bottom: 88.96%;
+  left: 16.77%;
+}
+.allelementssidebarWarningp3,
+.level1MonthlyWarningp4Child {
+  position: absolute;
+  height: 89.3%;
+  width: 15.8%;
+  top: 10.7%;
+  right: 84.2%;
+  bottom: 0;
+  left: 0;
+}
+
+.level1MonthlyWarningp4,
+.searchBarChild {
+  position: absolute;
+  height: 61.06%;
+  width: 24.38%;
+  top: 27.52%;
+  right: 3.13%;
+  bottom: 11.42%;
+  left: 72.5%;
+}
+
+.searchBar {
+  position: absolute;
+  height: 3.83%;
+  width: 10.39%;
+  top: 26.9%;
+  right: 48.44%;
+  bottom: 66.72%;
+  left: 40.17%;
+ 
+}
+.groupIcon2 {
+  position: absolute;
+  height: 2.52%;
+  width: 1.48%;
+  top: 30.17%;
+  right: 56.88%;
+  bottom: 67.31%;
+  left: 41.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.warningsPage3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}
+/* App.css */
+
+
+/* Style for the container */
+.Container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+
+  
+  
+}
+
+/* Style for the spacer */
+.Spacer {
+  margin-bottom: 16px;
+}
+
+/* Style for the input */
+.searchInput{
+  position: absolute;
+  top: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #578d00;
+  border-radius: 5px;
+  font-size: 16px;
+  
+}
+
+
+/* Style for the table wrapper */
+
+.TableWrapper {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  height: 50px; /* Set a fixed height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scroll */
+  margin-bottom: 100px; /* Move the table down by adjusting the margin-top value */
+  left: 10px; 
+}
+
+
+/* Style for the table */
+.Table {
+  position: absolute;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 4px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  max-width: 625px; /* Optionally set a max-width for the table */
+  flex-direction: column;
+  margin-right: 5px;
+  margin-left: 5px; /* Adjust the left margin to move the table to the right */
+}
+
+
+/* Style for table headers */
+.TableHeader {
+  background-color: #e0ffaf;
+  display: flex;
+}
+
+/* Style for table header cells */
+.TableColumn {
+  flex: 1;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff;
+}
+
+/* Style for table body rows */
+.TableRow {
+  background-color: #ffffff;
+  display: flex;
+}
+
+/* Style for even table body rows */
+.TableRow:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style for table body cells */
+.TableCell {
+  flex: 1;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Additional styles for the existing code you provided */
+
+
+.scrollWarningp2 {
+  position: absolute;
+  height: 45.44%;
+  width: 100%;
+  top: 36.82%;
+  right: 32.63%;
+  bottom: 30.51%;
+  left: 20.55%;
+  opacity: 0;
+  max-height: 90%;
+  overflow: auto;
+  
+ 
+}
+
+.scrollWarningp2.animate {
+  animation: 0.2s ease 0s 1 normal forwards slide-in-top;
+}
+
+
+.level1MonthlyWarningp4Child1 {
+  width: 312px;
+  height: 508px;
+  border-radius: 20px;
+  border: 1px solid #D1D1D1;
+  background: #FFF;
+  position: relative; /* Make sure it's a positioned element */
+  align-items: center;
+}
+
+
+.level1MonthlyWarningp4 {
+  position: relative;
+  right:90px
+  
+}
+
+
+
+.hourBreakdown {
+  position: absolute;
+  top: 4%;
+  left: 10px;
+  width: 275px;
+  height: 22px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inika;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -1,0 +1,52 @@
+/* Global styles */
+
+/* Reset default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the progress container */
+.progress-container {
+    display: flex;
+    position: relative;
+    height: 21px; /* Set the height of the progress container */
+    background-color: #f0f0f0; /* Set your desired background color */
+    border-radius: 5px; /* Add rounded corners to the progress container */
+    margin-left: 10px; /* Add left margin for spacing */
+    top: 8px; /* Adjust top position for positioning */
+}
+
+/* Styling for the progress bar */
+.progress-bar {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    background-color: #FFD3D3; /* Set your desired progress color */
+    border-radius: 5px; /* Add rounded corners to the progress bar */
+}
+
+/* Styling for the text inside the progress bar */
+.progress-text {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000; /* Set your desired text color */
+}
+
+/* Additional styling for the breakpoints */
+.breakpoint {
+    position: absolute;
+    background-color: #000; /* Set your desired breakpoint color */
+    height: 10px; /* Set the height of the breakpoint */
+    top: 50%; /* Adjust top position for centering */
+    transform: translateY(-50%); /* Center the breakpoint vertically */
+}
+
+/* Styling for the Inika font */
+.inika-font {
+    font-family: 'Inika', sans-serif; /* Set the font family to 'Inika' and fallback to sans-serif */
+}
+

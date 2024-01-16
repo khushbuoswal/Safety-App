@@ -1,0 +1,120 @@
+.notificationPopUpChild {
+  position: absolute;
+  top: 73px;
+  left: 2px;
+  border-top: 2px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 295px;
+  height: 2px;
+}
+.span {
+  font-size: var(--font-size-5xl);
+}
+.newUnviewedWarningsSince19 {
+  margin: 0;
+  font-family: inherit;
+  padding-left: 27px;
+}
+.newUnviewedWarningsContainer {
+  position: absolute;
+  top: 83px;
+  left: 17px;
+  display: inline-block;
+  width: 243px;
+  height: 75px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 15.61%;
+  width: 8.7%;
+  top: 78.05%;
+  right: 45.48%;
+  bottom: 6.34%;
+  left: 45.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+.notifications {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  display: inline-block;
+  width: 195px;
+  height: 38px;
+}
+.notificationheaderNotificatioChild {
+  position: absolute;
+  top: 0;
+  left: 172px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 2px solid #960505;
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+}
+.b,
+.vectorIcon1 {
+  position: absolute;
+}
+.b {
+  top: 3px;
+  left: 167px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 56px;
+  height: 38px;
+}
+.vectorIcon1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.closebuttonNotificationpopup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 38.78%;
+  width: 6.79%;
+  top: 16.33%;
+  right: 0;
+  bottom: 44.9%;
+  left: 93.21%;
+}
+.notificationheaderNotificatio {
+  position: absolute;
+  top: 18px;
+  left: -11px;
+  width: 280px;
+  height: 49px;
+  text-align: center;
+  color: var(--color-slateblue);
+}
+.notificationPopUp {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 299px;
+  height: 205px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}

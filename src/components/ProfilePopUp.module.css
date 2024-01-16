@@ -1,0 +1,92 @@
+.profilePopUpChild {
+  position: absolute;
+  top: 281.2px;
+  left: -1px;
+  border-top: 2px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 302px;
+  height: 2px;
+}
+.nameName,
+.profile {
+  position: absolute;
+  top: 25px;
+  left: -36px;
+  display: inline-block;
+  width: 195px;
+  height: 38px;
+}
+.nameName {
+  top: 223px;
+  left: 47px;
+}
+.profilePopUpItem {
+  position: absolute;
+  top: 78px;
+  left: 80px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 135px;
+  height: 135px;
+}
+.logOut {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 315px;
+  left: 138px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 72px;
+  height: 27px;
+}
+.logOut:hover {
+  color: #ce6f6f;
+}
+.groupIcon {
+  position: absolute;
+  height: 7.68%;
+  width: 8.66%;
+  top: 84.37%;
+  right: 59.97%;
+  bottom: 7.95%;
+  left: 31.38%;
+  object-fit: cover;
+}
+.closebuttonProfilepopupIcon,
+.groupIcon,
+.profilePopUp {
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+.closebuttonProfilepopupIcon {
+  position: absolute;
+  height: 5.12%;
+  width: 6.55%;
+  top: 6.74%;
+  right: 7.24%;
+  bottom: 88.14%;
+  left: 86.21%;
+  cursor: pointer;
+}
+.profilePopUp {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 290px;
+  height: 371px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-slateblue);
+  font-family: var(--font-inika);
+}
